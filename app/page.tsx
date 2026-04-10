@@ -6,8 +6,16 @@ export default function Home() {
       <div className="flex flex-col items-center gap-16 w-full max-w-2xl">
         {/* Header */}
         <div className="flex flex-col items-center gap-4 text-center">
-          <h1 className="text-5xl font-semibold tracking-tight text-foreground">
+          <h1 className="flex items-baseline gap-3 text-5xl font-semibold tracking-tight text-foreground">
             Moonlab
+            <a
+              href="https://cendy.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-normal text-muted-foreground/50 transition-colors hover:text-muted-foreground"
+            >
+              cendy.xyz
+            </a>
           </h1>
           <p className="text-base text-muted-foreground max-w-sm leading-relaxed">
             A quiet place to build things that matter.
